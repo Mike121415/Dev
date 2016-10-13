@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/obtain_token_via_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left|center_vertical"
+        android:text="Auth_Web"
+        />
+    <TextView
+        android:id="@+id/token_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/obtain_token_hint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="12sp"
+        android:scrollbars="vertical"
+        android:maxLines="1000"
+        android:text="@string/weibosdk_demo_obtain_token_hint"
+        />
+</LinearLayout>
